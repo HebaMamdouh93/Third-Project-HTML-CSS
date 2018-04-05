@@ -1,0 +1,277 @@
+/*start main Rulez*/
+body{
+
+   margin: 0;
+   padding: 0;
+   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+.container{
+	width:1100px;
+	margin:auto;
+
+}
+
+h2{
+    font-size: 30px;
+    font-weight: 500;
+}
+.navbar {
+    margin-bottom: 0;
+       border-color: rgba(255,255,255,.3);
+}
+.navbar-inverse{
+    background: transparent;
+
+}
+.navbar-brand{letter-spacing: 10px;}
+.navbar-inverse .navbar-brand , .navbar-inverse .navbar-nav > li > a{
+    color: rgba(255,255,255,.7);
+}
+.navbar-inverse .navbar-nav > li > a.active{
+ color:  yellowgreen;   
+}
+.link{margin-top:30px;}
+.link a{
+    color:#fff;
+    text-transform: uppercase;
+    background-color: yellowgreen;
+    border:1px solid yellowgreen;
+    border-radius: 35px;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    text-transform: uppercase;
+    padding: 15px 30px;
+
+}
+.link a:hover{
+    color:#fff;
+    background-color: forestgreen;
+    border:1px solid forestgreen;
+}
+.link a{
+ color:#fff;
+ text-decoration: none;
+}
+/* Start Header*/
+.header{
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    background-position: center;
+overflow: hidden;
+    height: 640px;
+}
+.header .logo , .header .logo .sub-logo {
+      overflow: hidden;
+}
+.header .logo .sub-logo{
+    font-size: 20px;
+    letter-spacing:7px ;
+    float: left;
+
+}
+.header .logo p a , .header .logo p i{
+ color: rgba(255,255,255,.7);
+  padding-right: 15px;
+}
+.header .logo .sub-logo:hover p a ,.header .logo .sub-logo:hover p i{
+    color: #fff;
+}
+.header .logo ul li a:hover{
+ color:#fff;
+}
+
+.header .logo ul , .header .logo ul a{
+    color: rgba(255,255,255,.7);
+    list-style: none;
+    text-decoration: none;
+    float:right;
+}
+.header .logo ul li{
+    float:left;
+    padding-left: 20px;
+    font-size: 15px;
+}
+.header .logo ul li.active a{
+color:yellowgreen;
+
+}
+
+.header .underline{
+    margin-top: -15px;
+    border: 1px solid rgba(255,255,255,.4) ;
+
+}
+
+.slider{
+    margin-top:140px;
+    text-align: center;
+    color: #fff;
+}
+.slider h1{
+    margin-bottom: 20px;
+    font-size: 100px;
+    font-weight: 300;
+
+}
+.slider p{
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+     color: rgba(255,255,255,.7);
+     margin-bottom: 50px;
+}
+
+/* End Header*/
+/*Start topic*/
+.topic{
+    text-align: center;
+    background-color:yellowgreen;
+    height:320px;
+}
+.topic .content i{
+    margin-top:70px;
+    color: #fff;
+    font-size: 60px;
+}
+ .content h2{
+     margin-top: 0;
+     margin-bottom: 20px;
+    color: #fff;
+}
+.content p{
+    padding: 0 200px;
+   color: rgba(255,255,255,.7);
+   font-size: 16px;
+    line-height: 1.5;
+}
+/*End topic*/
+/*Start Content 1*/
+.features{
+    height: 500px;
+    overflow: hidden;
+}
+.features .feat{
+    float:left;
+    width: 50%;
+
+}
+.features .feat img{
+     margin-top: 60px;
+     width:550px;
+    border-radius: 100%;
+}
+.features .feat .con{
+     margin-top: 90px;
+     padding-left: 30px;
+}
+.features .feat p{
+   color: #949494;
+   font-weight: 300;
+   font-size: 19px;
+    line-height: 1.4;
+}
+/*End Content 1*/
+
+/*Start Content 2*/
+.content2{
+    background-color: #222;
+    height: 500px;
+}
+.content2  h2{
+    color:#fff;
+    margin-bottom: 0;
+}
+.content2 .features .feat p{
+    color: rgba(255,255,255,.7);
+}
+.content2 .features .feat .link a{
+    background-color: #fff;
+     color:black;
+     border:1px solid #fff;
+}
+
+.content2 .features .feat .link a:hover{
+    background-color: rgba(255,255,255,.9);
+    border:1px solid rgba(255,255,255,.9);
+}
+/*End Content 2*/
+/*Start Promos*/
+
+ .promos{
+    height: 200px;
+    overflow: hidden;
+    margin: 0;
+}
+.promos a ,.promos a:hover{
+
+    text-decoration: none;
+}
+.promos .feat{
+    float:left;
+    width: 33.333%;
+    padding-left: 0;
+    text-align: center;
+    height: 200px;
+     background-size: cover;
+    background-position: center;
+}
+.promos .feat h3{
+margin-top:70px;
+color:#fff;
+font-size: 40px;
+font-weight: 400;
+}
+.promos .feat:first-child {
+    background-image: url(../images/writing.jpg);
+}
+#promo2 {
+    background-image: url(../images/concert.jpg);
+}
+#promo3{
+    background-image: url(../images/pencil_sharpener.jpg);
+}
+.promos .feat:hover {
+    border: 10px solid rgba(255,255,255,0.3);
+    width: 33.2%;
+    height: 200px;
+
+}
+/*End Promos*/
+/*Strat content3 */
+.content3{
+    text-align: center;
+   padding-top: 50px;
+   height: 280px;
+}
+.content3 .content{   padding-bottom: 50px; }
+.content3 i{color:yellowgreen; font-size: 50px;}
+.content3 h2{color:black; margin:0;}
+.content3 p{color:#949494; font-weight: 300; font-size: 16px; line-height: 1.6;  }
+.content3 .link a{ margin-bottom:40px;}
+/*End content3 */
+/*start contact*/
+.contact{
+    background-color:yellowgreen;
+    text-align: center;
+    height:400px;
+}
+.contact .email{ padding-top:100px; }
+.contact .email h2 ,.contact .email i,.contact .email p{
+color:#fff;
+}
+.contact .email p{
+font-weight: 300;
+   font-size: 22px;
+    line-height: 1.6;
+}
+/*End contact*/
+/*Start footer */
+.footer{
+    height: 80px;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+.footer span{color:#707070; font-weight: 300; font-size: 16px; line-height: 1.6;  }
+/*End footer */
